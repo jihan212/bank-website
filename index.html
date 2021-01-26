@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="text-center">Welcome to my Bank</h1>
+    <div class="login-form">
+        <h1 class="text-center mb-5">Welcome to my Bank</h1>
+        <div class="submit-box shadow-lg p-3 mb-5 bg-white rounded">
+            <h4 class="mt-1">Login</h4>
+            <input type="email" class="form-control mt-2 shadow-sm p-3  bg-white rounded" id="email" placeholder="Email">
+            <input type="password" class="form-control mt-2 shadow-sm p-3 bg-white rounded" id="password" placeholder="Password">
+            <button type="button" id="login-btn" class="btn btn-success mt-2">Enter</button>
+        </div>
+    </div>
+    <script>
+        const loginBtn = document.getElementById("login-btn");
+        loginBtn.addEventListener("dblclick", function(){
+            console.log("Hey whassup ;)");
+        })
+    </script>
 </body>
 </html>
