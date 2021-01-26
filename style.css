@@ -1,3 +1,21 @@
 body{
     padding: 100px;
 }
+#debit-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+    background-image: var(--bs-gradient);
+    color: white;
+}
+.withdraw{
+    background-color: lightsalmon;
+    background-image: var(--bs-gradient);
+    color: white;
+}
+.balance{
+    background-color: orange;
+    background-image: var(--bs-gradient);
+    color: white;
+}
